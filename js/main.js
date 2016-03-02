@@ -9,9 +9,10 @@
       });
 
       $('#cats').on('show.bs.collapse', function () {
-      	$.tmpl( tpl_noticia, noticias ).appendTo( 'ul#listOfcats' );
-         $('#login').hide();
+      	updateCatList(getCatsMock ());
+        $('#login').hide();
       });
+      
    	  $('#enroll').on('show.bs.collapse', function () {
          $('#cadastrar').hide();
       });
