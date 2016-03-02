@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gatice</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      
+    </header>
+    <main>
+        <section id="splash" >
+          <img src="img/photo-1415369629372-26f2fe60c467.jpg" class="img-responsive center-block" style="max-width: 100%; height: auto;" />
+          <img src="img/logo1.png"  style="position:absolute; top:50%;" class="img-responsive"/>
+        </section>
+        <section id="cadastrar" class ="collapse">
+          <img src="img/photo-1415369629372-26f2fe60c467.jpg" class="img-responsive center-block" style="max-width: 100%; height: auto;" />
+
+          <img src="img/logo1.png"  style="position:absolute; top:50%;" class="img-responsive"/>  <div class="btn-group-vertical footer " role="group" aria-label="..." style="width: 100%;">
+              <a class="btn btn-primary btn-lg btn-block" data-toggle="collapse" href="#" role="button" data-target = "#login" >LOG IN</a>
+              <a class="btn btn-primary btn-lg btn-block" data-toggle="collapse" data-target = "#enroll" href="#" role="button">CADASTRAR</a>
+            </div>
+        </section>
+        <section id="login" class ="collapse login-background" >
+           <img src="img/logo2.png" class="img-responsive" style="padding: 5% 5% 5% 5%;">
+           <h3 class="text-center">LOG IN</h3>
+           <form>
+             <div class="divText">
+                  <input class="form-control input-lg text-center" type="text" placeholder="Nome do Usuário">
+             </div>
+             <div class="divText">
+                  <input class="form-control input-lg text-center" type="text" placeholder="Senha">
+             </div>
+             <div style="width: 100%;margin-top: 5%;">
+                <div style="margin: 0 auto;width: 33%; ">
+                    <a  href="#">Esqueceu a senha?</a>
+                </div>
+              </div>
+              <div style="width: 100%;margin-top: 5%;">
+                <div style="margin: 0 auto;width: 50%; ">
+                  <button type="button" class="btn btn-success" data-toggle="collapse" data-target = "#cats">LOG IN</button>
+                </div>
+              </div>
+           </form>
+            <div style="width: 100%; margin-top:5%; margin-bottom:5%" class="text-center">
+              <span style="color: #ffffff">ou</span>
+            </div>
+            <img src="img\botao-entrar-facebook-1e65358dce001d3dd5f5a3474d1abfca.png" class="img-responsive center-block">
+        </section>
+        <section id="enroll" class ="collapse login-background">
+          <img src="img/logo2.png" class="img-responsive" style="padding: 5% 5% 5% 5%;">
+           <h3 class="text-center">CADASTRAR</h3>
+           <form>
+             <div class="divText">
+                <input id="enrollUserName" class="form-control input-lg text-center" type="text" id="nomeUsuario"placeholder="Nome do Usuário">
+             </div>
+             <div class="divText">
+                <input id="enrollPassword" class="form-control input-lg text-center" type="text" placeholder="Senha">
+             </div>
+             <div class="divText">
+                <input id="enrollAcceptPassword" class="form-control input-lg text-center" type="text" placeholder="Repetir Senha">
+              </div>
+              <div class="divText">
+                <input id="enrollEmail" class="form-control input-lg text-center" type="text" placeholder="Email">
+              </div>
+              <div class="divText">
+                <input id="enrollAcceptEmail" class="form-control input-lg text-center" type="text" placeholder="Repetir Email">
+              </div>
+              <div style="width: 100%;margin-top: 5%;">
+                <div style="margin: 0 auto;width: 50%; ">
+                  <button id="enrollFinish" type="button" class="btn btn-success">CONCLUIR</button>
+                </div>
+              </div>
+           </form>
+            <div style="width: 100%; margin-top:5%; margin-bottom:5%" class="text-center">
+              <span style="color: #ffffff">ou</span>
+            </div>
+            <img src="img\botao-entrar-facebook-1e65358dce001d3dd5f5a3474d1abfca.png" class="img-responsive center-block">
+        </section>
+        <section id="cats" class ="collapse login-background">
+          <ul id="listOfcats">
+          </ul>
+        </section>
+    </main>
+
+    <footer>
+      
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.tmpl.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/catList.js"></script>
+    <script src="js/utils.js"></script>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 20%;
+  clear:both;
+} 
+
+html, body {
+  height: 100%;
+  background-color: #ed145a;
+}
+
+.btn-primary {
+    background: #ed145a;
+    color: #ffffff;
+}
+
+.btn-success{
+	background: #7cc576;
+    color: #ffffff;
+
+}
+.btn {
+    padding: 14px 24px;
+    font-weight: 1400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+    border-color: #ffffff;
+    width: 100%;
+    height: auto;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.login-background{
+	width: 100%;
+	height:auto;
+	background-color: #ed145a;
+}
+
+h3{
+	color:#ffffff;
+
+}
+a{
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	height: auto;
+}
+a:visited { 
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.divText{
+
+	width: 100%;
+	margin: auto;
+	margin-top: 3px;
+	display: inline-flex;
+}
+
+.divText .form-control{
+	width: 66%;
+	margin: auto;
+}
+.img-valida-form{
+	max-width: 9%; 
+	margin: auto;
+	height: auto;
+	position: absolute;
+	left: 73%;
+}
