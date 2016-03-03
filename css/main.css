@@ -1,45 +1,58 @@
 .footer {
-  position: relative;
-  margin-top: -150px; /* negative value of footer height */
-  height: 20%;
+  position: fixed;
+  margin-top: 0px; /* negative value of footer height */
+  margin-bottom: 0px;
   clear:both;
+  bottom: 0;
+  background-color: #ed145a;
+  width: 100%;
 } 
 
 html, body {
-  height: 100%;
-  background-color: #ed145a;
+  background-image: url("img/home-bg.jpg");
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-size: 120%;
 }
 
 .btn-primary {
-    background: #ed145a;
-    color: #ffffff;
+  background: #ed145a;
+  color: #ffffff;
 }
 
 .btn-success{
-	background: #7cc576;
-    color: #ffffff;
-
+	background: #ed145a;
+  color: #ffffff;
 }
+
 .btn {
-    padding: 14px 24px;
-    font-weight: 1400;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    border-style: solid;
-    border-width: 0px 0px 2px 0px;
-    border-color: #ffffff;
-    width: 100%;
-    height: auto;
+  padding: 14px;
+  font-weight: 700;
+  font-size: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 0px 0px 1px 0px;
+  border-color: #ffffff;
+  width: 100%;
+  height: auto;
 }
  
 .btn:focus, .btn:active:focus, .btn.active:focus {
-    outline: 0 none;
+  outline: 0 none;
+  background: #ed145a;
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 0px 0px 1px 0px;
+  border-color: #ffffff;
 }
 
 .login-background{
 	width: 100%;
 	height:auto;
 	background-color: #ed145a;
+  padding-bottom: 0%;
 }
 
 h3{
@@ -76,4 +89,17 @@ a:visited {
 	height: auto;
 	position: absolute;
 	left: 73%;
+}
+
+#section .splash {
+
+} 
+
+.logo-main {
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+  padding-top: 20%;
+  padding-left: 12%;
+  padding-right: 12%; 
 }
